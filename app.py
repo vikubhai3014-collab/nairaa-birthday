@@ -23,11 +23,8 @@ st.markdown(
         from { text-shadow: 0 0 10px #ff80ab, 0 0 20px #ff80ab; }
         to { text-shadow: 0 0 20px #ff4081, 0 0 30px #ff4081; }
     }
-    .butterfly {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 150px;
+    # Butterfly Animation (using GIF link)
+st.markdown('<img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" class="butterfly" />', unsafe_allow_html=True)
         animation: float 6s ease-in-out infinite;
     }
     @keyframes float {
